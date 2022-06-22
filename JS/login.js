@@ -16,11 +16,11 @@ document.getElementById("login").onclick = function() {
             if (userType == "admin"){
                 window.location.href = "/dashboard.html"
             }else if(userType == "hr") {
-                window.location.href = "/dashboard.html"
+                window.location.href = "/hrdashboard.html"
             }else if(userType == "finance"){
-                window.location.href = "/dashboard.html"
+                window.location.href = "/financedashboard.html"
             }else{
-                window.location.href = "/dashboard.html"
+                alert("o user")
             }
         })
     }).catch((error) => {
